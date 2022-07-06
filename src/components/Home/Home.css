@@ -1,0 +1,226 @@
+.Home-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  gap: 3rem;
+}
+.Banner {
+  width: 90%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.Banner-Content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 3rem;
+}
+.Banner-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Banner-Buttons {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.Banner-Buttons a {
+  width: 30%;
+  background-color: #f7701d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.Banner-Buttons a:hover {
+  background-color: white;
+  color: #f7701d;
+}
+.Banner-Inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.Banner-Inputs input {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 1rem;
+  background-color: #f7711d00;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+.Banner-Inputs a {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7701d;
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
+.Banner-Inputs a:hover {
+  background-color: white;
+  color: #f7701d;
+}
+.Active-Companies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Companies-Header {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Companies-Header h1 {
+  font-family: "Poppins", sans-serif;
+}
+.Featured-Companies-Cards {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Feature-Card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin-top: 2rem;
+  background-color: #fffafa;
+  margin-left: 6rem;
+  margin-bottom: 5rem;
+}
+.Card-Image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+.Card-Image img {
+  width: 85%;
+}
+.Card-Buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.Feature-Card-btn {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7701d;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Feature-Card-btn:hover {
+  background-color: white;
+  color: #f7701d;
+}
+.ViewMore {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ViewMore-btn {
+  width: 20%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: 2px solid #f7701d;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ViewMore-btn:hover {
+  background-color: #f7701d;
+  color: #fffafa;
+}
+.Accelerate-Card {
+  width: 100%;
+}
+.Top_Companies-Slider {
+  width: 90%;
+}
+.Testimonials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Create-Resume {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Home-note {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Note-Card {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 1rem;
+  background: rgba(247, 112, 29, 0.39);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.Note-Card a{
+  font-weight: 800;
+  text-decoration: none;
+  color: #468fa2;
+}
+.Post-Review-Form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

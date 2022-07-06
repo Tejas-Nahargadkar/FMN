@@ -1,0 +1,211 @@
+.CandidateProfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 5rem;
+  gap: 5rem;
+}
+.CandidateProfile-ProfileCard {
+  width: 100%;
+  height: 35vh;
+  background-color: rgba(247, 112, 29, 0.39);
+  display: flex;
+  flex-direction: row;
+}
+.CandidateProfile-ProfilePicture {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CandidateProfile-ProfilePicture img {
+  width: 50%;
+  margin-top: 2rem;
+}
+.CandidateProfile-ProfileCardContent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+.SkillsAndLocation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+}
+.SkillsAndLocation span {
+  color: #1f678d;
+}
+.ResumeHeadline {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  border-radius: 10px;
+}
+.ResumeHeadline-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ResumeHeadline-content h2 {
+  width: 80%;
+  word-wrap: break-word;
+}
+.KeySkills {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.KeySkills-Skill {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.KeySkills-Skill h2 {
+  padding: 0.8rem;
+  background: rgba(247, 112, 29, 0.39);
+  border-radius: 10px;
+}
+.Personal-Details-Section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Personal-Details-Section h2 {
+  color: #898787;
+}
+.Personal-Details-Section-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Personal-Details-Section-Header h1 {
+  width: 60%;
+  text-align: right;
+}
+.EditDetails {
+  width: 40%;
+  text-align: right;
+}
+.EditDetails a {
+  text-decoration: none;
+  color: #1f678d;
+  font-size: 1.5rem;
+}
+.Personal-Details-Section-Details {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 3rem;
+}
+.Personal-Details-Section-Status {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 3rem;
+}
+.Personal-Details-Section-Location {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 3rem;
+}
+.Education-Details-Section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 3rem;
+  border-radius: 10px;
+}
+.Education-Details-Section-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Education-Details-Section-Header h1 {
+  width: 60%;
+  text-align: right;
+}
+.Education-Details-Section-Edit-Details {
+  width: 40%;
+  text-align: right;
+}
+.Education-Details-Section-Edit-Details a {
+  text-decoration: none;
+  color: #1f678d;
+  font-size: 1.5rem;
+}
+.Education-Details-Card{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.Education-Details-col a{
+  text-decoration: none;
+  color: #1f678d;
+  font-size: 1.5rem;
+}
+.Employment-section{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 3rem;
+  border-radius: 10px;
+}
+.Employment-Section-Header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Employment-Section-Header h1{
+  width: 60%;
+  text-align: right;
+}
+.Employment-Section-Edit-Details{
+  width: 40%;
+  text-align: right;
+}
+.Employment-Section-Edit-Details a{
+  text-decoration: none;
+  color: #1f678d;
+  font-size: 1.5rem;
+}
+.Employment-Card{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.Employment-section h3{
+  color: #898787;
+}

@@ -1,0 +1,124 @@
+.SubscriptionPage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/Vector.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+.SubscriptionPage-Header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    color: white;
+}
+.SubscriptionTable-Container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 60% 10% 10% 10%;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+}
+.SubscriptionTable-Container span{
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+}
+.Table-Subject{
+    width: 80%;
+    text-align: justify;
+}
+.Free{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Basic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Premium{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Free-Button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+.Basic-Button{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+.Premium-Button{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+.Subscription-Price-Container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.25);
+}
+.Subscription-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Price{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.Price-Button{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Price-Btn{
+  width: 70%;
+  padding: 0.8rem;
+  border: none;
+  font-weight: 600;
+ background: rgba(247, 112, 29, 0.39);
+}
+.Subscription-price-Image{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Subscription-price-Image img{
+  width: 50%;
+}

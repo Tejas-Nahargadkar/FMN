@@ -1,0 +1,51 @@
+const JobsData = [
+    {
+        JobTitle:'Full Stack Developer',
+        Experience:'2-3 years of experience',
+        WorkFrom:'Work From Home',
+        Skills:'Html, css ,Angular, Dreamweaver, bootstrap,Jquery',
+        Stipend:'20000-30000 /Month',
+        link:'/',
+    },
+    {
+        JobTitle:'Full Stack Developer',
+        Experience:'2-3 years of experience',
+        WorkFrom:'Work From Home',
+        Skills:'Html, css ,Angular, Dreamweaver, bootstrap,Jquery',
+        Stipend:'20000-30000 /Month',
+        link:'/',
+    },
+    {
+        JobTitle:'Full Stack Developer',
+        Experience:'2-3 years of experience',
+        WorkFrom:'Work From Home',
+        Skills:'Html, css ,Angular, Dreamweaver, bootstrap,Jquery',
+        Stipend:'20000-30000 /Month',
+        link:'/',
+    },
+    {
+        JobTitle:'Full Stack Developer',
+        Experience:'2-3 years of experience',
+        WorkFrom:'Work From Home',
+        Skills:'Html, css ,Angular, Dreamweaver, bootstrap,Jquery',
+        Stipend:'20000-30000 /Month',
+        link:'/',
+    },
+    {
+        JobTitle:'Full Stack Developer',
+        Experience:'2-3 years of experience',
+        WorkFrom:'Work From Home',
+        Skills:'Html, css ,Angular, Dreamweaver, bootstrap,Jquery',
+        Stipend:'20000-30000 /Month',
+        link:'/',
+    },
+    {
+        JobTitle:'Full Stack Developer',
+        Experience:'2-3 years of experience',
+        WorkFrom:'Work From Home',
+        Skills:'Html, css ,Angular, Dreamweaver, bootstrap,Jquery',
+        Stipend:'20000-30000 /Month',
+        link:'/',
+    },
+]
+export default JobsData

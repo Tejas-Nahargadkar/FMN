@@ -1,0 +1,202 @@
+.Blogs-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    font-family: "Poppins", sans-serif;
+    gap: 5rem;
+}
+.Blogs-Banner{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(247, 112, 29, 0.39)
+}
+.BLogs-Header{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.BLogs-Header h1{
+    font-size:3rem;
+}
+.Blogs-Image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Blogs-Image img{
+    width: 80%;
+}
+.Blogs-Carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Blogs-Carousel-Track{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.Blogs-Card{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Blogs-Card-Image{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Blogs-Card-Image img{
+    width: 100%;
+}
+.Blogs-Card-Content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Blogs-Card-Content h2{
+    margin: 0%;
+    margin-top: 1rem;
+}
+.Blogs-Card-Content p{
+    width: 100%;
+    text-align: center;
+}
+.Blogs-Container-BlogSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Blogs-Section-Content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Auth-Name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.Auth-Photo{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Auth-Name-Name{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+    font-family: 'Volkhov', serif;
+}
+.Auth-Name-Name h2{
+    margin: 0%;
+}
+.Auth-Name-Name h4{
+    margin: 0%;
+}
+.Auth-Name-Name h5{
+    margin: 0%;
+}
+.Blogs-Section-Content-content{
+    width: 95%;
+}
+.Blogs-Content-Buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.content-btn-1{
+   background-color: rgba(255, 255, 255, 0);
+   border: none;
+   color:  #DF6951;
+   font-size: 2.2rem;
+   cursor: pointer;
+}
+.content-btn-2{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color:  #DF6951;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.Comments-Section{
+    width: 80%;
+    height: 70vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+.Comments{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+padding: 1rem;
+}
+.Comment-auth-Name-Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.Comment-Status{
+    color: #898787;
+}
+.PostComment{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.PostComment textarea {
+ padding: 1rem;
+ font-weight: 600;
+ border: 2px solid #F7701D;
+ border-radius: 10px;
+}
+.PostComment-Button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.Post-Btn{
+    width: 15%;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #F7701D63;
+}

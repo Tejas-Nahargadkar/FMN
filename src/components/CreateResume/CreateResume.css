@@ -1,0 +1,119 @@
+.CreateResume {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+.CreateResume-Banner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.CreateResume-Banner-Content {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+    justify-content: flex-end;
+  text-align: left;
+}
+.CreateResume-Banner-Content h1{
+    width: 80%;
+    word-wrap: break-word;
+    font-size: 2.8rem;
+    margin: 0%;
+    margin-left: 5rem;
+}
+.CreateResume-Banner-Image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.CreateResume-Banner-Image img{
+    width: 60%;
+    padding: 1rem;
+}
+.Build-CV-Carousel{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.Build-CV-Carousel-Content{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ gap: 1.5rem;
+  
+}
+.Build-CV-Carousel-Content h2{
+  width: 80%;
+  word-wrap: break-word;
+  font-size: 2rem;
+}
+.Build-CV-Carousel-Content p{
+  width: 60%;
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+.Build-CV-Carousel-Image{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Build-CV-Carousel-Image img{
+  width: 70%;
+}
+.Templates-Container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Templates-Container-Header{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+.Templates-Container-Header h1{
+  width: 75%;
+  text-align: center;
+}
+.Templates-Container-Categories{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+.Category-Btn{
+  width: 18%;
+  font-size: 1.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.Category-Btn:hover{
+  color: #F7701D;
+}
+.Templates{
+  width: 100%;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
